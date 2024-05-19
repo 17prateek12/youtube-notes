@@ -43,7 +43,7 @@ const App = () => {
   };
 
   return (
-    <div className='max-w-[1300px] mx-auto'>
+    <div className='max-w-[1300px] mx-auto '>
       <p className='text-4xl font-bold my-12 text-center'>YouTube Video Player with Notes</p>
       <YouTubePlayer videoId={videoId} onReady={onPlayerReady} />.
       <button className='bg-blue-500 w-[140px] h-[50px] flex justify-center items-center 
